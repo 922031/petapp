@@ -27,9 +27,6 @@ import {
   Droplets,
   Zap,
 } from "lucide-react"
-import { ButtonBase } from "@mui/material"
-
-
 
 type Screen = "dashboard" | "record" | "history" | "stats" | "pets" | "settings"
 
@@ -132,7 +129,7 @@ export default function PetWalkApp() {
                 <Footprints className="w-5 h-5 text-white" />
               </div>
               <div>
-                <h1 className="text-xl font-bold text-gray-800">おさんぽ日記</h1>
+                <h1 className="text-xl font-bold text-gray-800">おさんぽ手帳</h1>
                 <p className="text-sm text-gray-500">今日も一緒にお散歩しよう！</p>
               </div>
             </div>
